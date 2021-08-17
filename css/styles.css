@@ -345,6 +345,15 @@ img {
   padding-left: 32px;
   padding-right: 32px;
 }
+
+.team-icons {
+  display: flex;
+}
+
+.team-list .team-icons + .team-icons {
+  margin-right: 30px;
+}
+
 /* footer*/
 
 .logo-footer {
